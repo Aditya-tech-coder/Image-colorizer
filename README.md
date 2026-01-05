@@ -24,15 +24,17 @@ pip install -r requirements.txt
 
 
 ## Project Structure
-├── colorizers/              # Package folder for model definitions
-│   ├── __init__.py          # (Empty file) Makes this a python package
-│   ├── base_color.py        # BaseColor class
-│   ├── eccv16.py            # ECCVGenerator class
-│   ├── siggraph17.py        # SIGGRAPHGenerator class
+```
+├── colorizers/              # Package folder for model definitions.
+│   ├── __init__.py          # (Empty file) Makes this a python package.
+│   ├── base_color.py        # BaseColor class.
+│   ├── eccv16.py            # ECCVGenerator class.
+│   ├── siggraph17.py        # SIGGRAPHGenerator class.
 │   └── util.py              # load_img, resize_img, etc.
-├── main.py                  # Entry point script (argparse & execution)
-├── requirements.txt         # List of dependencies
-└── README.md                # This file
+├── main.py                  # Entry point script (argparse & execution).
+├── requirements.txt         # List of dependencies.
+└── README.md                # This file.
+```
 
 ## How to run
 ```bash
